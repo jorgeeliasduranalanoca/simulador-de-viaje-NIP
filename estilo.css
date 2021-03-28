@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 128, 0, 0.356);
+
+}
+.titulo{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px auto 20px auto;
+    background-color: rgb(187, 183, 183);
+
+}
+
+.grilla{
+display: grid;
+margin: 20px 30px auto 30px;
+position: relative;
+border: solid 2px black;
+grid-template-columns: 70% 30% ;
+grid-template-rows: 60px 50px 50px 50px 50px 50px 50px 50px 80px 80px ;
+grid-template-areas: 
+
+" tituloviajes tituloviajes"
+"login login"
+"usuario usuario"
+"boleto boleto2"
+"Gente   Gente2 "
+"estadia estadia2"
+"hotel   hotel2 "
+"automovil  automovil2"
+"costo   efectivo"
+"viaje boton"
+;
+
+}
+.tituloviajes{
+    grid-area: tituloviajes;
+    border: solid 2px black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+   
+   
+
+}
+.login{grid-area: login;
+    border: solid 2px black;
+    font-size:  25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+
+}
+.usuario{
+    grid-area: usuario;
+    border: solid 2px black;
+    font-size:  35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+}
+.boleto{
+    grid-area: boleto;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.boleto2{
+    grid-area:boleto2;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.Gente{
+    grid-area:Gente;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.Gente2{
+    grid-area:Gente2;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.estadia{
+    grid-area:estadia;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.estadia2{
+    grid-area:estadia2;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.hotel{
+    grid-area: hotel;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.hotel2{
+    grid-area: hotel2;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.automovil{
+    grid-area: automovil;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.automovil2{
+    grid-area: automovil2;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.costo{
+    grid-area:costo;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.efectivo{
+    grid-area:efectivo;
+    border: solid 2px black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.viaje{
+    
+        grid-area:viaje;
+        border: solid 2px black;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:white;
+    
+}
+#boton{
+    grid-area:boton;
+        border: solid 2px black;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:black;
+        background-color: white;
+}
+
+.ingreso{
+    background-color:black;
+    color: white;
+    
+}
