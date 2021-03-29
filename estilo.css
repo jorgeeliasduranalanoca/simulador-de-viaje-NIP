@@ -19,7 +19,7 @@ margin: 20px 30px auto 30px;
 position: relative;
 border: solid 2px black;
 grid-template-columns: 70% 30% ;
-grid-template-rows: 60px 50px 50px 50px 50px 50px 50px 50px 80px 80px ;
+grid-template-rows: 60px 50px auto 50px 50px 50px 50px 50px 80px 80px ;
 grid-template-areas: 
 
 " tituloviajes tituloviajes"
@@ -162,10 +162,12 @@ grid-template-areas:
         font-family: Georgia, 'Times New Roman', Times, serif;
         color:black;
         background-color: white;
+        
 }
 
 .ingreso{
-    background-color:black;
-    color: white;
+    background-color:white;
+    color: black;
+    
     
 }
