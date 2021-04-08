@@ -21,6 +21,7 @@ var InfoSend = {
 };
    
 
+
 function agregar()
                     {
 
@@ -71,7 +72,7 @@ function agregar()
                 }
                 
                 $("#boton").click(function(){
-                    alert("sus datos fueron cargados");
+                    
                     $(".usuario").hide(1000);
                     $(".usuario").show(function(){
                         $(".usuario").append(" " +ElUsuario[0])
@@ -107,7 +108,7 @@ function agregar()
                                      }
                      }
      
-
+                                
 
 
 
