@@ -68,18 +68,30 @@ function agregar()
                 console.log(informacion);
                 
                 
-                  
-                }
+
+               }
                 
-                $("#boton").click(function(){
-                    
-                    $(".usuario").hide(1000);
-                    $(".usuario").show(function(){
-                        $(".usuario").append(" " +ElUsuario[0])
-       
-                    })
-                });
-         
+         $("#boton").click(function(){
+            
+         $(".usuario").hide(2000)
+                      .show(2000,function(){
+         $(".usuario").append(" " +ElUsuario[0])
+                            })
+                        });
+         $("#boton").click(function(){
+            $(".boleto").slideUp(2000);
+            $(".boleto2").slideUp(2000);
+            $(".Gente").slideUp(2000);
+            $(".Gente2").slideUp(2000);
+            $(".estadia").slideUp(2000);
+            $(".estadia2").slideUp(2000);
+            $(".hotel").slideUp(2000);
+            $(".hotel2").slideUp(2000);
+            $(".automovil").slideUp(2000);
+            $(".automovil2").slideUp(2000);
+
+         })
+
          $("#boton").hover(
              function(){
             $(this).css("color","white");
@@ -95,7 +107,7 @@ function agregar()
 
          $("#usuario").click(function(){
 
-             $("div.login").append("<span>Esciba su usuario sin espacios, puntos y comas. </span>")
+             $("div.login").append("<span>Escriba su usuario sin espacios, puntos ni comas. </span>")
          })
 
          
