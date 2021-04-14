@@ -64,14 +64,14 @@ function agregar()
                }
                 
 
-            var urlget 
+            var URLPOST ="https://jsonplaceholder.typicode.com/posts"
 
             
             var infopost = InfoSend;
                $(".send").click(()  => {
-                   $.post(urlget,infopost,(respuesta,estado) => {
+                   $.post(URLPOST,infopost,(respuesta,estado) => {
                        if(estado === "success"){
-                           $("body").prepend(alert("los datos del viaje fueron cargados "+respuesta))
+                           alert("los datos del viaje fueron cargados con exito");
                            
                        }
                    });
