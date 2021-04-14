@@ -63,33 +63,12 @@ function agregar()
 
                }
                 
-
-            var URLPOST ="https://jsonplaceholder.typicode.com/posts"
-
-            
-            var infopost = InfoSend;
-               $(".send").click(()  => {
-                   $.post(URLPOST,infopost,(respuesta,estado) => {
-                       if(estado === "success"){
-                           alert("los datos del viaje fueron cargados con exito");
-                           
-                       }
-                   });
-
-               });
-
-
-               $(".send").hover(function(){
+            $(".send").hover(function(){
                 $(this).css("color","white");
                 $(this).css("background-color","black");
                 $(this).css("border","white");
-               },
-               function(){
-                   $(this).css("color","black");
-               $(this).css("background-color","white");
-               $(this).css("border","black");
-
-               })
+            });
+            
 
                
                
