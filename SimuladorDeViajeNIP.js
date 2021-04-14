@@ -10,15 +10,7 @@ var ArtEstadia = [];
 var ArtCateg = [];
 var Movilidad = [];
 
-var InfoSend = {
-            "Usuario": ElUsuario,
-            "TipoDeBoleto": ArtuculosBoletos,
-            "CantidadBoletos":CantidadBoletos,
-            "TiempoEstadia":ArtEstadia,
-            "TipoDeHotel":ArtCateg,
-            "AlquilerDeVehiculo":Movilidad,
 
-};
    
 
 
@@ -71,6 +63,38 @@ function agregar()
 
                }
                 
+
+            var urlget 
+
+            
+            var infopost = InfoSend;
+               $(".send").click(()  => {
+                   $.post(urlget,infopost,(respuesta,estado) => {
+                       if(estado === "success"){
+                           $("body").prepend(alert("los datos del viaje fueron cargados "+respuesta))
+                           
+                       }
+                   });
+
+               });
+
+
+               $(".send").hover(function(){
+                $(this).css("color","white");
+                $(this).css("background-color","black");
+                $(this).css("border","white");
+               },
+               function(){
+                   $(this).css("color","black");
+               $(this).css("background-color","white");
+               $(this).css("border","black");
+
+               })
+
+               
+               
+
+
          $("#boton").click(function(){
             
          $(".usuario").hide(2000)

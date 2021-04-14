@@ -19,12 +19,13 @@ margin: 20px 30px auto 30px;
 position: relative;
 border: solid 2px black;
 grid-template-columns: 70% 30% ;
-grid-template-rows: 60px 50px auto auto auto auto auto auto 80px auto ;
+grid-template-rows: 60px 50px auto auto auto auto auto auto 80px auto auto ;
 grid-template-areas: 
 
 " tituloviajes tituloviajes"
 "login login"
 "usuario usuario"
+
 "boleto boleto2"
 "Gente   Gente2 "
 "estadia estadia2"
@@ -32,6 +33,7 @@ grid-template-areas:
 "automovil  automovil2"
 "costo   efectivo"
 "viaje boton"
+"espacio send"
 ;
 
 }
@@ -60,6 +62,16 @@ grid-template-areas:
     font-size:  35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
+    text-align: center;
+}
+
+.send{
+    grid-area: send;
+    border: solid 2px black;
+    font-size:  20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    background-color: white;
     text-align: center;
 }
 .boleto{

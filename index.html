@@ -10,6 +10,7 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"></script> 
     <script src="SimuladorDeViajeNIP.js"></script>
+    <script src="infoSendViaje.js"></script>
     <link rel="stylesheet" href="estilo.css">
     <title>simulador de VIAJE</title>
 </head> 
@@ -26,7 +27,7 @@
                     
                     
                     <div class="usuario" > El usuario</div>
-                        
+    
                   <div class="boleto">Boleto: VIP-anticipada-normal </div>  
                       <div class="boleto2"> <input id="Tipo_boleto" class="ingreso" type="text"> </div>
                 
@@ -47,12 +48,12 @@
                   <button id="boton" type="button" onclick="agregar();" >Agregar</button>  <div class="efectivo">$$$</div>
                 
                         <div class="viaje" >Aspectos de la compra: <span id="incluido"> </span></div>
-                        
+                        <button class="send" type="button">enviar datos</button>
                         
           </div>     
      
          
-
+           <script src="infoSendViaje.js"></script>
            <script src="SimuladorDeViajeNIP.js"></script>
            
     </body>
